@@ -1,0 +1,131 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#b94646, #b94646);
+}
+
+header {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid #990000;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 1.5px;
+    border: 0px;
+    background-color: #da350b;
+    transition-duration: 0.4s;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_form {
+    cursor: pointer;
+    border-radius: 1.5px;
+    border: 1px solid red;
+    font-
+    transition-duration: 0.4s;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+button:hover {
+    background-color: red;
+    color: red;
+}
+
+ul, ol {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    border: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    padding: 10px;
+    text-align: left;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    margin-top: 15px;
+    color: white;
+    padding: 15px;
+    align-items: initial;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.work {}
+
+.student1 {
+    padding-left: 10px;
+    border-left: 1px solid #990000;
+}
+
+.student2 {
+    padding-left: 10px;
+    border-left: 1px solid #990000;
+}
+
+.student3 {
+    padding-left: 10px;
+    border-left: 1px solid #990000;
+}
+
+.button {
+    padding: 12px;
+}
+
+.row_buttons {
+    border-top: 2px solid #990000;
+    border-bottom: 2px solid #990000;
+    padding: 20px;
+    text-align: center;
+}
+
+.row_buttons_form {
+    border-top: 2px solid #990000;
+    border-bottom: 2px solid #990000;
+    text-align: center;
+    background-color: white;
+}
+
+#credit {
+    font-size: small;
+    padding-top: 20px;
+}
+
+#credit_form {
+    font-size: small;
+    padding-top: 20px;
+    background-color: white;
+}
+
+
+.formulary{
+    background-color: white;
+}
+
+.label{
+    tex
+}
