@@ -21,7 +21,8 @@ button {
     cursor: pointer;
     border-radius: 1.5px;
     border: 0px;
-    background-color: #da350b;
+    background-color: #990000;
+    color: black;
     transition-duration: 0.4s;
     flex-direction: row;
     justify-content: center;
@@ -30,7 +31,7 @@ button {
 
 button:hover {
     background-color: red;
-    color: red;
+    color: black;
 }
 
 a {
@@ -47,6 +48,18 @@ input:focus, textarea:focus, select:focus {
     border: 2px solid purple;
 }
 
+fieldset {
+    margin: 10px;
+    border: 0px;
+    color: black;
+}
+
+legend{
+    font-size: large;
+    padding-bottom: 5px;
+
+}
+
 .main {
     border: 30px;
     display: flex;
@@ -55,7 +68,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 .content {
-    padding: 10px;
+    padding: 15px;
     text-align: left;
     flex-flow: column wrap;
     justify-content: space-between;
@@ -69,9 +82,6 @@ input:focus, textarea:focus, select:focus {
     align-items: initial;
     align-content: flex-start;
     justify-content: space-between;
-}
-
-.work {
 }
 
 .student1 {
@@ -102,16 +112,28 @@ input:focus, textarea:focus, select:focus {
 }
 
 .curriculum {
-    background-color: #f1f1f1;
+    background-color: #f2f2f2;
     display: flex;
     margin-top: 10px;
     padding: 20px;
 }
 
+.doisBackground{
+    background-color: #f2f2f2;
+    color: black;
+
+}
+
+.contato{
+    background-color: #f2f2f2;
+    color: black;
+    text-decoration: black;
+}
+
 .profile {
     flex: 3;
     text-align: center;
-    border-right: 1px solid black;
+    border-right: 1px solid #cc0000;
 }
 
 .profile-content {
@@ -151,15 +173,23 @@ input:focus, textarea:focus, select:focus {
 }
 
 #educacao-graduacao {
-    flex: 5;
+    flex: 4;
 }
 
 #credit {
     font-size: small;
-    padding-top: 20px;
+    padding: 15px ;
+    justify-content: center;
+    align-content: center;
 }
 
 #profile-pic {
     border-radius: 50%;
     max-width: 100px;
 }
+
+label{
+    color: black;
+}
+
+
