@@ -2,16 +2,19 @@ body {
     margin: 10px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(#b94646, #b94646);
+    background-color:#c63939;
+
 }
 
 header {
-    color: white;
+    color: #FFF;
 }
 
 footer {
     text-align: center;
+    color: #FFF;
     border-top: 2px solid #990000;
+
 }
 
 button {
@@ -25,30 +28,23 @@ button {
     align-items: center;
 }
 
-.button_form {
-    cursor: pointer;
-    border-radius: 1.5px;
-    border: 1px solid red;
-    font-
-    transition-duration: 0.4s;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
-
 button:hover {
     background-color: red;
     color: red;
 }
 
-ul, ol {
-    text-decoration: none;
-}
-
 a {
     text-decoration: none;
-    color: white;
+    color: #FFF;
+}
+
+form, label {
+    color: #FFF;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border: 2px solid purple;
 }
 
 .main {
@@ -75,7 +71,8 @@ a {
     justify-content: space-between;
 }
 
-.work {}
+.work {
+}
 
 .student1 {
     padding-left: 10px;
@@ -92,22 +89,69 @@ a {
     border-left: 1px solid #990000;
 }
 
+
 .button {
     padding: 12px;
 }
 
 .row_buttons {
-    border-top: 2px solid #990000;
-    border-bottom: 2px solid #990000;
+    border-top: 2px solid #cc0000;
+    border-bottom: 2px solid #cc0000;
     padding: 20px;
     text-align: center;
 }
 
-.row_buttons_form {
-    border-top: 2px solid #990000;
-    border-bottom: 2px solid #990000;
+.curriculum {
+    background-color: #f1f1f1;
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.profile {
+    flex: 3;
     text-align: center;
-    background-color: white;
+    border-right: 1px solid black;
+}
+
+.profile-content {
+    flex: 9;
+    margin-left: 20px;
+    color: black;
+}
+
+.profile_content_bold {
+    font-weight: bold;
+    color: #c63939;
+
+}
+
+.text-margin-left {
+    margin-left: 10px;
+}
+
+.form-input {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    min-width: 350px;
+}
+
+#btn-enviar {
+    min-width: 350px;
+}
+
+#educacao {
+    display: flex;
+}
+
+#educacao-medio {
+    flex: 2;
+    border-right: 1px solid black;
+}
+
+#educacao-graduacao {
+    flex: 5;
 }
 
 #credit {
@@ -115,17 +159,7 @@ a {
     padding-top: 20px;
 }
 
-#credit_form {
-    font-size: small;
-    padding-top: 20px;
-    background-color: white;
-}
-
-
-.formulary{
-    background-color: white;
-}
-
-.label{
-    tex
+#profile-pic {
+    border-radius: 50%;
+    max-width: 100px;
 }
