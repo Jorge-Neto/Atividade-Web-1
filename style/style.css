@@ -56,7 +56,7 @@ fieldset {
 
 legend{
     font-size: large;
-    padding-bottom: 5px;
+    padding: 5px;
 
 }
 
@@ -105,8 +105,8 @@ legend{
 }
 
 .row_buttons {
-    border-top: 2px solid #cc0000;
-    border-bottom: 2px solid #cc0000;
+    border-top: 2px solid #990000;
+    border-bottom: 2px solid #990000;
     padding: 20px;
     text-align: center;
 }
@@ -121,7 +121,6 @@ legend{
 .doisBackground{
     background-color: #f2f2f2;
     color: black;
-
 }
 
 .contato{
@@ -191,5 +190,3 @@ legend{
 label{
     color: black;
 }
-
-
